@@ -59,4 +59,4 @@ for r, bar in zip(data, bars):
     ax.text(x[i], height-10, '%0.2f'%data[i], ha='center', va='center', fontsize=11)
     i = i + 1
 
-plt.savefig(title+'.png')
+plt.savefig('examples/'+title+'.png')
